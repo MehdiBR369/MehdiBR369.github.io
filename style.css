@@ -23,6 +23,7 @@ h1{
     margin: auto;
     position: relative;
     color: #e1e5ee;
+    transition: 0.6s;
 }
 .btn1:hover{
     color: #2a324b;
@@ -50,6 +51,7 @@ h1{
     margin: 10px auto;
     position: relative;
     color: #e1e5ee;
+    transition: 0.6s;
 }
 .btn2:hover{
     color: #2a324b;
@@ -78,6 +80,7 @@ h1{
     margin: 10px auto;
     position: relative;
     color: #f7c59f;
+    transition: 0.6s;
 }
 .btn3:hover{
     color: #2a324b;
@@ -106,6 +109,7 @@ h1{
     margin: 10px auto;
     position: relative;
     color: #f7c59f;
+    transition: 0.6s;
 }
 .btn4:hover{
     color: #2a324b;
