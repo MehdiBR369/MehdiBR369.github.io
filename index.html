@@ -1,19 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="En">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/bf08b0c294.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>LogIn</title>
 </head>
 <body>
-    <div class="container">
-        <div class="btn1" class="div">Hover Me</div>
-        <div class="btn2" class="div">Hover Me</div>
-        <div class="btn3" class="div">Hover Me</div>
-        <div class="btn4" class="div">Hover Me</div>
+    <div class="wraper">
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+        <form action="#" class="form">
+            <h2 class="form-title">LogIn Here</h2>
+            <div class="form-input-wraper">
+                <label for="username" class="form-label">UserName</label>
+                <input class="form-input" type="text" id="username" placeholder="Email or Phone" required autocomplete="off">
+            </div>
+            <div class="form-input-wraper">
+                <label for="password" class="form-label">Password</label>
+                <input class="form-input" type="text" id="password" placeholder="Email or Phone" required autocomplete="off">
+            </div>
+            <button type="submit" class="form-button">Log In</button>
+        </form>
     </div>
-    <p class="copyright">&copy;All right reserved</p>
 </body>
 </html>
